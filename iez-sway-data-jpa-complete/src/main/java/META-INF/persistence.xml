@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="iez-sway-data-jpa-complete">
+		<class>com.iezview.sway.data.jpa.model.SwayAttention</class>
+		<class>com.iezview.sway.data.jpa.model.SwayCarousel</class>
+		<class>com.iezview.sway.data.jpa.model.SwayCollect</class>
+		<class>com.iezview.sway.data.jpa.model.SwayComment</class>
+		<class>com.iezview.sway.data.jpa.model.SwayParaise</class>
+		<class>com.iezview.sway.data.jpa.model.SwayProduceInfo</class>
+		<class>com.iezview.sway.data.jpa.model.SwayPush</class>
+		<class>com.iezview.sway.data.jpa.model.SwaySendCode</class>
+		<class>com.iezview.sway.data.jpa.model.SwayTag</class>
+		<class>com.iezview.sway.data.jpa.model.SwayTagWork</class>
+		<class>com.iezview.sway.data.jpa.model.SwayType</class>
+		<class>com.iezview.sway.data.jpa.model.SwayTypeWork</class>
+		<class>com.iezview.sway.data.jpa.model.SwayUser</class>
+		<class>com.iezview.sway.data.jpa.model.SwayVersion</class>
+		<class>com.iezview.sway.data.jpa.model.SwayWork</class>
+		<class>com.iezview.sway.data.jpa.model.SwayWorksBrowse</class>
+	</persistence-unit>
+</persistence>
